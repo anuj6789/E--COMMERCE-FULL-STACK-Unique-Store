@@ -22,7 +22,29 @@ Usage
 •⁠ ⁠Open the frontend URL provided by Vercel. •⁠ ⁠Register/Login to access the store. •⁠ ⁠Browse products, add them to the cart, and proceed to checkout. •⁠ ⁠Admins can add, edit, or delete products from the dashboard.
 
 Folder Structure
-/ECOM_WEB │── /api │ ├── products.json │── /node_modules │── /public │ ├── /Image │ ├── vite.svg │── /src │ ├── addToCart.js │ ├── fetchQuantityFromCartLS.js │ ├── getCartProducts.js │ ├── homeProductCards.js │ ├── homeQuantityToggle.js │ ├── incrementDecrement.js │ ├── main.js │ ├── removeProdFromCart.js │ ├── showAddToCart.js │ ├── showToast.js │ ├── updateCartProductTotal.js │ ├── updateCartValue.js │ ├── style.css │── .gitignore │── about.html
+/ECOM_WEB 
+│── /api │
+├── products.json 
+│── /node_modules 
+│── /public │ 
+├── /Image │ 
+├── vite.svg 
+│── /src │ 
+├── addToCart.js │ 
+├── fetchQuantityFromCartLS.js │ 
+├── getCartProducts.js │ 
+├── homeProductCards.js │ 
+├── homeQuantityToggle.js │ 
+├── incrementDecrement.js │ 
+├── main.js │ 
+├── removeProdFromCart.js │ 
+├── showAddToCart.js │ 
+├── showToast.js │ 
+├── updateCartProductTotal.js │ 
+├── updateCartValue.js │ 
+├── style.css 
+│── .gitignore 
+│── about.html
 
 Deployment
 •⁠ ⁠The frontend is deployed on Vercel. •⁠ ⁠The backend can be hosted on a cloud platform such as Heroku, Render, or a dedicated server.
